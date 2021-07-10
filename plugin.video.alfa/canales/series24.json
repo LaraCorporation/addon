@@ -1,0 +1,34 @@
+{
+  "id": "series24",
+  "name": "Series24",
+   "force_unify": true,
+  "active": true,
+  "adult": false,
+  "language": ["lat","cast"],
+  "thumbnail": "https://www.series24.nu/wp-content/uploads/2020/07/serie24.png",
+  "banner": "https://www.series24.nu/wp-content/uploads/2020/07/serie24.png",
+  "categories": [
+    "movie",
+    "tvshow",
+    "documentary",
+    "direct",
+    "anime"
+  ],
+  "settings": [
+    {
+      "id": "include_in_newest_latino",
+      "type": "bool",
+      "label": "Incluir en Novedades - Latino",
+      "default": true,
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "id": "include_in_global_search",
+      "type": "bool",
+      "label": "Incluir en busqueda global",
+      "default": false,
+      "enabled": true,
+      "visible": true
+    }]
+}
